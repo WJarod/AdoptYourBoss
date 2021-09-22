@@ -1,0 +1,494 @@
+@font-face {
+    font-family: 'futurabook';
+    src: url('./font/futura_book_font-webfont.woff2') format('woff2'),
+         url('./font/futura_book_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "futurabook";
+}
+
+.nav-bar
+{
+    border-bottom: 4px solid #FFC007;
+}
+
+.nav-btn:hover
+{
+    background-color: #6c757d;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+}
+
+.click-nav
+{
+    width: 55px;
+    height:6px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.descriptionNews {
+    height: 175px;
+}
+
+.descriptionOffres {
+    height: 115px;
+}
+
+.descriptionEvents {
+    height: 175px;
+}
+
+svg
+{
+    width: 22px;
+    height: 22px;
+}
+
+nav
+{
+    height: 60px;
+}
+
+.btn-warning:hover
+{
+    border: 1px solid #FFC007;
+    background-color: #212529;
+    color: #FFC007;
+    box-sizing: border-box
+}
+
+.btn-co
+{
+    margin-left: -15px;
+}
+
+.btn-warning
+{
+    border-radius: 10px;
+}
+
+.inscription
+{
+    color: #F9FAFB;
+    text-decoration : none;
+}
+.inscription:hover
+{
+    color: #FFC007;
+}
+
+.titre
+{
+    width:150px;
+    height:8px;
+    border-radius: 10px;
+}
+
+.titreconsulter {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.offre
+{
+    width: 23%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.offre-titre
+{
+    margin-top:-190px;
+}
+
+.offre-publier
+{
+    position: relative;
+    margin-top: 40%;
+    font-size: 14px;
+    margin-left: 65%;
+}
+
+.offre-image
+{
+    width:107.8%;
+    margin-left: -12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.offre-desc
+{
+    font-size: 14px;
+    height: 105px;
+}
+
+
+.new
+{
+    border-radius: 10px;
+}
+
+.new-image
+{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: -12px;
+}
+
+.new-date
+{
+    font-size: 14px;
+    margin-top: 200px;
+}
+
+
+.open
+{
+    height: 540px;
+    border-radius: 10px;
+}
+
+.connexion
+{
+    border-radius: 10px;
+    height: 300px;
+}
+
+.connexion-titre
+{
+    size: 150%;
+}
+
+input
+{
+    color: #F9FAFB;
+}
+
+.connexion-titre
+{
+    margin-top: -50px;
+    font-size: 150px;
+}
+
+.connexion-titrep-container
+{
+    margin-top: -40px;
+}
+
+
+.news
+{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.imagetitre {
+    position: relative;
+}
+
+.imagetitre h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.news-img
+{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.news-img-consulter {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.news-desc
+{
+    height: 165px;
+}
+
+.mb-10
+{
+    margin-bottom: 20%;
+}
+
+.mt-5
+{
+    margin-bottom: 5%;
+}
+
+.img-users
+{   
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 1px solid #FFC007;
+}
+
+.popUp
+{
+    margin-top: 0.5%;
+    height: 500Px;
+    max-height: 500Px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.popUp-event:hover
+{
+    background-color: #6c757d;
+}
+
+.side-bar
+{
+    margin-left: -0.8%;
+    margin-top: -80px;
+    height: 100%;
+    border-right: 4px solid #FFC007;
+}
+
+.container-logo
+{
+    margin-top: 100px;
+}
+
+.logo
+{
+    width: 50%;
+}
+
+.side-bar-link:hover
+{
+    color:#FFC007;
+}
+
+.compte
+{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.compte-img
+{
+    margin-left: -5%;
+    height: 180px;
+    width: 180px;
+}
+
+.container-compte
+{
+    border-radius: 10px;
+    height: 500px;
+}
+
+.btn-compte
+{
+    margin-top: 2%;
+}
+
+.candidats-img
+{
+    height: 80px;
+    width: 80px;
+}
+
+.fff {
+    text-overflow: ellipsis;
+}
+
+.img-container-consulter
+{
+    width: 100%;
+    height: 300px;
+    margin-left: 0%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-PopUp
+{
+    height: 50px;
+}
+
+
+/* --------------------------- DEBUT PARTIE CANDIDAT SIDEBAR NICO --------------------------*/
+
+/* -------------- barre de gauche ------------------*/
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    height: auto;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar2.active {
+    margin-top: 0vh;
+}
+
+#sidebar2.active2 {
+border-radius: 0px 0px 0px 0px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: black;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar2 {
+    position: relative;
+    z-index: 900;
+    margin-top: -40vh;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 40vh;
+    background: black;
+    color: #fff;
+    transition: all 0.3s;
+    border-radius: 0px 0px 5px 5px;
+}
+#sidebar .sidebar-header, #sidebar2 .sidebar-header {
+    padding: 20px;
+}
+
+#sidebar ul.components, #sidebar2 ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p, #sidebar2 ul p  {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a, #sidebar2 ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover, #sidebar2 ul li a:hover {
+    color: yellow;
+    background: grey;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"], #sidebar2 ul li.active > a, a[aria-expanded="true"]{
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+#chat {
+    margin-top: -80vh;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+#chat.active {
+    margin-top: 0vh;  
+}
+
+#chatboxlook {
+    border-radius: 0px 0px 0px 5px;
+}
+
+#bouton3 {
+    width: 100%;
+    font-family: 'Futura', sans-serif;
+    font-size: 1.1em !important;
+}
+
+ #bouton3:hover, #bouton3:focus {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    background: grey;
+    transition: all 0.3s;
+}
+
+#chatroom {
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+#chatroomboxlook {
+    border-radius: 0px 0px 0px 5px;
+}
+
+/* FIN PARTIE CANDIDAT NICO */
